@@ -1,0 +1,11 @@
+venv
+venv_win
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+napho.db
+napho.db-shm
+napho.db-wal
+uploads
+.env

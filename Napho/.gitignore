@@ -1,0 +1,41 @@
+# Python virtual environments & cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/venv/
+**/venv_win/
+**/env/
+**/.venv/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Next.js & Node
+**/node_modules/
+**/.next/
+**/out/
+**/.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & file uploads
+*.db
+*.sqlite
+*.sqlite3
+**/uploads/*
+!**/uploads/.gitkeep
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# AI & local editor configs
+**/.claude/settings.local.json
+*.local.json
+.claude/settings.local.json
